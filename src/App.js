@@ -53,7 +53,7 @@ function App() {
 
         // 컴포넌트가 언마운트될 때 interval 정리
         return () => clearInterval(interval);
-    }, []);
+    }, []); // eslint-disable-next-line react-hooks/exhaustive-deps
 
 
     return (
