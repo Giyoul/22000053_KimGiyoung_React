@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import Hello from "./component/hello";
 
+
 function App() {
     const [emojis, setEmojis] = useState([]);
     const emojiArray = React.useMemo(() => ["😊", "😍", "🥳", "💖", "😎", "🎉", "🤩"], []);
